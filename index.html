@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header id="header">
+        <div >
+            <img class="logo" src="vetores/programador.png" alt="logo">
+        </div>
+
+        <div class="lista">
+            <nav>
+                <ul>
+                   <li class="ancora"><a href="#section1">Inicio</a></li>
+                   <li class="ancora"><a href="#section2">Sobre mim</a></li>
+                   <li class="ancora"><a href="#section3">Projetos</a></li>
+                   <li class="ancora"><a href="#section4">Habilidades</a></li>
+                </ul>   
+            </nav>
+            
+        </div>
+    </header>
+    <main class="main">
+
+        <section id="section1">
+
+            <div class="me">
+                <img id="me" src="imgs/ft-me.jpg" alt="minha foto">
+            </div>
+
+            <div class="titles">
+                <h1 id="title">Gustavo Lopes</h1>
+                <h3 class="subTitle">Desenvolvedor Front-End</h3>
+            </div>
+
+            <div class="buttons">
+
+                <button class="link">
+                    <img class="linGit" src="vetores/github (1).png" alt="">
+                    <a href="https://github.com/GustavoLopesDev" target="_blank">
+                        Github
+                    </a>
+                </button>
+
+                <button class="link">                    
+                    <img class="linGit" src="vetores/linkedin.png" alt="">
+                    <a href="https://www.linkedin.com/in/gustavolopesdev/" target="_blank">
+                        Linkedin
+                    </a>
+                </button>
+
+            </div>
+
+        </section>
+
+        <section id="section2">
+            <div>
+                <img class="ftSobre" src="imgs/ft-me.jpg" alt="ft minha">
+            </div>
+            <div class="frase">
+                <h1>Sobre Mim</h1>
+                <div class="Ps">
+                    <P >Meu nome é Gustavo Lopes tenho 17 anos e amo tecnologia, meu primeiro contato com programação foi durante meu ensino
+                    médio através do curso técnico de Redes de Computadores, mas de forma superficial.</P>
+                    <p >Hoje em dia amo a área e me esforço
+                    cada dia para adquirir mais conhecimentos.</p> 
+                    <p >Meu foco principal é o desenvolvimento Front-End, mas visando se tornar um desenvolvedor Fullstack.</p>
+                    <p>Estou pronto para enfrentar qualquer obstáculo para se tornar um programador de qualidade.</p> 
+                </div>
+                
+            </div>
+            
+            
+        </section>
+        <section id="section3"></section>
+        <section id="section4"></section>
+
+    </main>
+
+
+
+
+    
+    <script src="js/me.js"></script>
+    <script src="js/maquina.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll("#me, .ftSobre"));
+    </script>
+</body>
+</html>
