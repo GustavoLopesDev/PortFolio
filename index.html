@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/expan.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -22,8 +24,18 @@
                    <li class="ancora"><a href="#section3">Projetos</a></li>
                    <li class="ancora"><a href="#section4">Habilidades</a></li>
                 </ul>   
+            </nav>           
+        </div> 
+        <div class="menuResponsivo">
+            <button onclick="Open()"  id="iconMenu"><img class="iconMenu" src="vetores/menu-aberto (1).png" alt="icon de menu"></button>
+            <nav>
+                <ul>
+                    <li class="ancora"><a href="#section1">Inicio</a></li>
+                    <li class="ancora"><a href="#section2">Sobre mim</a></li>
+                    <li class="ancora"><a href="#section3">Projetos</a></li>
+                    <li class="ancora"><a href="#section4">Habilidades</a></li>
+                </ul>
             </nav>
-            
         </div>
     </header>
     <main class="main">
@@ -87,7 +99,7 @@
 
 
     
-    <script src="js/me.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/maquina.js"></script>
     <script src="js/vanilla-tilt.js"></script>
     <script>

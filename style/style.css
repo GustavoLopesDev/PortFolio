@@ -10,37 +10,6 @@ body{
     background-color: #141414;
 }
 
-header#header{
-    display:flex ;
-    width: 100%;
-    height: 9vh;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    background: rgba(196, 196, 196, 0.11);
-    backdrop-filter: blur(10px);
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    border-bottom: solid 0.1px rgba(255, 255, 255, 0.452);
-}
-
-img.logo{
-    height: 45px;
-    width: auto;
-}
-div.lista nav ul{
-    display: flex;
-    list-style: none;
-    gap: 25px;
-}
-li a{
-    font-size: 20px;
-}
-li a:hover{
-    color:  rgb(0, 0, 0);
-}
-
 /*Inicio*/
 section#section1{
     height: 100vh;

@@ -1,0 +1,62 @@
+header#header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0.3rem 0 0.2rem 0;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.11);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    border-bottom: solid 0.1px rgba(255, 255, 255, 0.452);
+}
+
+img.logo {
+    height: 45px;
+    width: auto;
+}
+
+div nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+li a {
+    font-size: 20px;
+}
+
+li a:hover {
+    color: rgb(0, 0, 0);
+}
+button#iconMenu{
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button#iconMenu img{
+    height: 2rem;
+    width: 2rem;
+}
+div.menuResponsivo {
+    display: none;
+}
+div.menuResponsivo nav ul{
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 3.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    opacity: 0;
+}
+.OpenMenu{
+    background: rgba(19, 19, 19, 0.849);
+    opacity: 1 !important;
+}
